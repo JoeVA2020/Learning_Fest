@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="js1.css">
+    <title>Dice Roller</title>
+</head>
+<body>
+    <h1>Dice Roller</h1>
+    <div class="dice">
+        <button onclick="abi()">Roll Me</button>
+        <script>
+            function abi() {
+                var diceRoll = Math.floor( Math.random() * 6 ) +1;
+                alert('You rolled a ' + diceRoll);
+            }
+        </script>
+    </div>
+</body>
+</html>

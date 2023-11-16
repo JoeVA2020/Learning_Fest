@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+form{
+    text-align: center;
+}
+form button[type="submit"] {
+    margin-top: 12px;
+    padding: 12px;
+    color: black;
+}
+form input[type="password"] {
+    margin-top: 12px;
+}
